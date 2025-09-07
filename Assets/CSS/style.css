@@ -36,6 +36,7 @@ body {
 .logo {
   font-size: 1.5rem;
   color: #f5c518;
+  cursor: pointer;
 }
 
 .nav-list {
