@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
   <link rel="stylesheet" href="Assets/CSS/style.css">
   <link rel="shortcut icon" href="Assets/IMG/favicon1.png" type="image/x-icon">
 </head>
+
 <body>
-  <!-- header -->
+
   <header class="header">
     <div class="container">
       <h1 class="logo">BaheaGym</h1>
@@ -31,7 +33,6 @@
     </div>
   </section>
 
-  <!-- planos -->
   <section id="planos" class="planos">
     <h2>Nossos Planos</h2>
     <div class="planos-container">
@@ -56,7 +57,6 @@
     </div>
   </section>
 
-  <!-- cadastro -->
   <section id="cadastro" class="cadastro">
     <h2>Cadastro de Aluno</h2>
     <div class="cadastro-container">
@@ -76,51 +76,63 @@
       </form>
       <div class="mensagem">
         <h3>Comece hoje!</h3>
-        <p>Transforme seu corpo e sua mente. Faça parte da nossa família BaheaGym e alcance seus objetivos com acompanhamento profissional.</p>
+        <p>Transforme seu corpo e sua mente. Faça parte da nossa família BaheaGym e alcance seus objetivos com
+          acompanhamento profissional.</p>
       </div>
     </div>
   </section>
 
-  <!-- serviços -->
-<section id="servicos" class="servicos">
+  <section id="servicos" class="servicos">
     <h2>O que oferecemos</h2>
     <div class="servicos-grid">
-      
-      <div class="servico-row">
-        <div class="servico">
-          <h3>Ficha de Treino</h3>
-          <p>Monte treinos personalizados para cada aluno.</p>
-          <div>
-            <label for="objetivo">Objetivo</label>
-            <select id="objetivo">
-              <option value="">Selecione o Objetivo</option>
-              <option value="emagrecimento">Emagrecimento</option>
-              <option value="hipertrofia">Hipertrofia</option>
-              <option value="condicionamento">Condicionamento</option>
-              <option value="saude">Saúde</option>
-            </select>
-          </div>
-        </div>
-        <div class="servico">
-          <h3>Controle de Pagamentos</h3>
-          <p>Acompanhe quem está em dia e quem está devendo.</p>
-        </div>
+      <div class="servico">
+        <h3>Ficha de Treino</h3>
+        <p>Monte treinos personalizados para cada aluno.</p>
+        <label for="objetivo">Objetivo:</label>
+        <select id="objetivo">
+          <option value="">Selecione o Objetivo</option>
+          <option value="emagrecimento">Emagrecimento</option>
+          <option value="hipertrofia">Hipertrofia</option>
+          <option value="condicionamento">Condicionamento</option>
+          <option value="saude">Saúde</option>
+        </select>
       </div>
-      
-      <div class="servico-row">
-        <div class="servico">
-          <h3>Presenças</h3>
-          <p>Registre a entrada dos alunos e acompanhe a frequência.</p>
-        </div>
-        <div class="servico">
-          <h3>Relatórios</h3>
-          <p>Veja estatísticas de alunos ativos e inadimplentes.</p>
-        </div>
+
+      <div class="servico">
+        <h3>Controle de Pagamentos</h3>
+        <p>Acompanhe quem está em dia e quem está devendo.</p>
+        <form>
+          <input type="text" placeholder="Nome do aluno">
+          <input type="number" placeholder="Valor pago">
+          <button class="btn">Registrar</button>
+        </form>
+      </div>
+
+      <div class="servico">
+        <h3>Presenças</h3>
+        <p>Registre a entrada dos alunos e acompanhe a frequência.</p>
+        <form>
+          <input type="text" placeholder="Nome do aluno">
+          <input type="date">
+          <button class="btn">Marcar Presença</button>
+        </form>
+      </div>
+
+      <div class="servico">
+        <h3>Relatórios</h3>
+        <p>Veja estatísticas de alunos ativos e inadimplentes.</p>
+        <form>
+          <select>
+            <option value="">Selecione o relatório</option>
+            <option value="ativos">Ativos</option>
+            <option value="inadimplentes">Inadimplentes</option>
+          </select>
+          <button class="btn">Gerar</button>
+        </form>
       </div>
     </div>
   </section>
 
-  <!-- contato -->
   <footer id="contato" class="footer">
     <h2>Contato</h2>
     <p>Telefone: (61) 99870-1721</p>
@@ -128,4 +140,5 @@
     <p>&copy; 2025 Academia BaheaGym</p>
   </footer>
 </body>
+
 </html>
